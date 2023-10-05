@@ -1,0 +1,53 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("MoonHub", "DarkTheme")
+local Tab = Window:NewTab("Blade Ball")
+local Section = Tab:NewSection("Op'S")
+Section:NewButton("Bedol Beta", "ButtonInfo", function()
+_G.UI_Size = 200 -- config ui size
+loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
+    print("Clicked")
+end)
+Section:NewButton("Bedol v7.5", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/W3QkAFRn"))()
+    print("Clicked")
+end)
+Section:NewButton("DownGroud Manual Spam", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/marmfjjwjw223/DownGroud/main/DOWNGROUND'))()
+    print("Clicked")
+end)
+Section:NewButton("Tyson", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/tysonware/TysonScripts/main/Blade%20Ball%20v2'))()
+    print("Clicked")
+end)
+Section:NewButton("Yon v3", "ButtonInfo", function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/af9f139fff0acc2f44c8bc84da83624a.lua"))()
+    print("Clicked")
+end)
+Section:NewButton("W Azure", "ButtonInfo", function()
+script_key = ""
+
+getgenv().Mode = "Idle" -- "AimOnly","Rage", "AI"
+getgenv().AIJumpState = true --Allow Ai To Jump
+getgenv().StopAutoParry = false
+getgenv().PingBased = true
+getgenv().ForceWin = false --100% Win Need  Telekenis, Premium Only
+getgenv().AutoUseSkill = false
+getgenv().BaseVelocity = 7 --Base On The Server, IDK Where To Get it It Should Be 4-6 Or 0 (Old Server)
+getgenv().BasePredictVelocity = 3.5 -- Should be From 3-3.5 Work Good With 3 If Old Server
+getgenv().VisualizePath = true -- false //
+getgenv().AutoSpamClickDetect = true -- Spam Click If Near Other Player
+getgenv().CloseRangeAttack = false -- Just Move Forward To The Last Character
+getgenv().AutoClickKeyBind = "X" -- Need The Ball To Be Stopped
+getgenv().AutoClickThreshold = 0.2
+getgenv().DistanceBall = 10
+getgenv().NoUi = false
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/fd07660d92cb26891e9acfab9f0c6ba4.lua"))()
+    print("Clicked")
+end)
+local Tab = Window:NewTab("KeyBoard")
+local Section = Tab:NewSection("KeyBoard")
+Section:NewButton("Keyboard", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+    print("Clicked")
+end)
