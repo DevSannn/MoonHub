@@ -45,7 +45,7 @@ getgenv().NoUi = false
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/fd07660d92cb26891e9acfab9f0c6ba4.lua"))()
     print("Clicked")
 end)
-Section:NewButton("Visualize Beta", "ButtonInfo", function()
+Section:NewButton("Visual Beta", "ButtonInfo", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/DevTravDYT/dsaaswadfeszad/main/Testt'))();
     print("Clicked")
 end)
